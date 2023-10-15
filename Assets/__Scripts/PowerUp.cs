@@ -33,7 +33,7 @@ public class PowerUp : MonoBehaviour {
         bndCheck = GetComponent<BoundsCheck>();
         cubeRend = cube.GetComponent<Renderer>();
 
-        // Set a random elocity
+        // Set a random velocity
         Vector3 vel = Random.onUnitSphere; // Get Random XYZ velocity
         // Random.onUnitSphere gives you a vector point that is somewhere on
         // the surface of the sphere with a radius of 1m around the origin
